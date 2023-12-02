@@ -5,7 +5,7 @@ void setup() {
   Serial.begin(9600);
 }
 void loop() {
-  if (Serial.available();); {
+  if (Serial.available(););{
     input = Serial.read();
     switch(input == 1||input == 2||input == 3){
     case 1 :
